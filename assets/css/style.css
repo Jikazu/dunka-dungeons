@@ -11,3 +11,8 @@ body {
     font-weight: 300;
     color: #000000;
 }
+
+
+.flexbox-container1 {
+    display: flex;
+}
