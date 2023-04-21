@@ -73,6 +73,12 @@ body {
     font-size: 220%;
 }
 
+#recruitment{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
 #left-about {
     padding-top: 30px;
     width: 33%;
