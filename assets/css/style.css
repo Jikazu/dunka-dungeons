@@ -110,6 +110,21 @@ body {
 }
 
 
+#meetup div {
+    color: #000000;
+    background-color: rgba(39, 152, 218, 0.6);
+    width: 20%;
+    height: 200px;
+    float: center;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+
+
+
 .flexbox-container1 {
     display: flex;
     flex-wrap: wrap;
@@ -119,4 +134,25 @@ body {
     width: 600px;
     margin: 10px;
     border: 3px solid #333;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.socialmedia{
+    text-align: center;
+}
+
+.socialmedia > li {
+    display: inline;
+}
+
+.socialmedia i {
+    font-size: 120%;
+    margin: 1%;
+    padding: 5%;
+    color: #4822d1;
 }
