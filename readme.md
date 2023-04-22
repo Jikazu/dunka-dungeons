@@ -44,10 +44,34 @@ This is my first ever coding project, thus I've been quite inspired by the "Love
 ### Colour
 The colour palette is created with regards to my hero image to get the colours unified. The hero image is the endpboss for the expansion we're currently playing so it fits well with the theme, as we are a raidingguild. I created it using [Adobe Color](https://color.adobe.com/sv/create/color-wheel)
 
-### Typogrophy
+### Typography
 
 The google font [Cabin](https://fonts.google.com/specimen/Cabin?query=cabin) was used for this project with a fallback of Sans-Serif. I've used font weight 600.  
 
 ### Images
 
 I've borrowed one picture from the World of Wacraft website of the Lich King that I'm using as a hero image. All the photos in the gallery are either screenshots taken by me, or pictures taken by various guildmembers from several of our in real life meetups.
+
+## Features
+
+The dunka dungeons website has three areas. Home, Gallery and Apply.
+
+Home consists of:
+* About us section
+* Recruitment info
+* Meetup info
+
+The gallery contains:
+* 9 different pictures that can be build upon
+
+Apply consists of:
+* A form to fill in an application to join the guild. 
+
+
+### Existing features
+
+#### Header and Navigation Section
+
+  - The Header consists of a Logo section, text-based, that is aligned to the right and a Menu that is aligned to the left.
+  - The Header is at a fixed position on top and follows the user as the user scrolls down the page. Menu items are anchored to sections on the website.
+
