@@ -72,6 +72,10 @@ Apply consists of:
 
 #### Header and Navigation Section
 
-  - The Header consists of a Logo section, text-based, that is aligned to the right and a Menu that is aligned to the left.
-  - The Header is at a fixed position on top and follows the user as the user scrolls down the page. Menu items are anchored to sections on the website.
+   - The Header consists of a text based logo section that is aligned to the left, and a menu that is aligned to the right with it's children aligned to the left.
+
+   /picture of header
+
+   
+   
 
