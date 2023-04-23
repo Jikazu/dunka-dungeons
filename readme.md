@@ -62,7 +62,7 @@ Home consists of:
 * Meetup info
 
 The gallery contains:
-* 9 different pictures that can be build upon
+* 9 different pictures that can be built upon
 
 Apply consists of:
 * A form to fill in an application to join the guild. 
