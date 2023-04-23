@@ -18,6 +18,7 @@ body {
     font-size: 200%;
     margin-left: 30px;
     color: #9E9E9E;
+    text-transform: capitalize;
 }
 
 #menu {
@@ -43,18 +44,14 @@ body {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #b5c9f5;
 }
 
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -71,7 +68,7 @@ body {
 
 
 #about {
-    height: 600px;
+    height: 500px;
 }
 
 #welcome {
@@ -87,7 +84,7 @@ body {
 }
 
 #left-about {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 33%;
     float: left;
    
