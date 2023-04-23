@@ -136,6 +136,8 @@ body {
 .flexbox-container1 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    float: left;
 }
 
 .flexbox-item1 {
@@ -144,9 +146,9 @@ body {
     border: 3px solid #333;
 }
 
-#photos > img {
+ #photos > img {
     width: 100%;
-}
+} 
 
 /* footer */
 
