@@ -24,7 +24,9 @@
         </nav>
     </header>
 
-    <form>
+    <form id="application-form">
+        <fieldset>
+        <div class="float-left">
         <label for="cname">Character name:</label>
         <input type="text" id="cname" name="cname">
         <label for="class">Class:</label>
@@ -47,8 +49,17 @@
         <input type="radio" id="dps" name="dps" value="DPS">
         <label for="healer">Healer</label>
         <input type="radio" id="healer" name="healer" value="Healer">
+        <br>
+        <label for="experience" class="block-label">What is your previous raiding experience? Please describe.</label>
+		<br>
+		<textarea id="experience" rows="4" cols="87" name="experience"></textarea>
+        <br>
+        <label for="why-join" class="block-label">Why do you want to join our guild?</label>
+        <br>
+        <textarea id="why-join" rows="4" cols="87" name="why-join"></textarea>
 
-
+    </div>
+    </fieldset>
     </form>
     
     <footer>

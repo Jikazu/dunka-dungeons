@@ -150,11 +150,22 @@ body {
 
 /*apply */
 
-form {
-    width: 600px;
-    margin: auto;
+fieldset {
+	border: none;
+	margin-top: 20px;
 }
 
+form {
+	width: 700px;
+	padding: 25px;
+	border-radius: 8px;
+	margin: 25px auto;
+	background-color: white;
+}
+
+.float-left {
+    float: left;
+}
 /* footer */
 
 footer {
