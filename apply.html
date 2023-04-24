@@ -28,9 +28,9 @@
         <fieldset>
         <div class="float-left">
         <label for="cname">Character name:</label>
-        <input type="text" id="cname" name="cname">
+        <input type="text" id="cname" name="cname" required>
         <label for="class">Class:</label>
-        <select id="class" name="class">
+        <select id="class" name="class" required>
             <option value="warrior">Warrior</option>
             <option value="priest">Priest</option>
             <option value="rogue">Rogue</option>
@@ -44,19 +44,16 @@
         </select>
         <p>Role:</p>
         <label for="tank">Tank</label>
-        <input type="radio" id="tank" name="tank" value="Tank">
+        <input type="radio" id="tank" name="role" value="Tank" required>
         <label for="dps">DPS</label>
-        <input type="radio" id="dps" name="dps" value="DPS">
+        <input type="radio" id="dps" name="role" value="DPS" required>
         <label for="healer">Healer</label>
-        <input type="radio" id="healer" name="healer" value="Healer">
-        <br>
+        <input type="radio" id="healer" name="role" value="Healer" required>
         <label for="experience" class="block-label">What is your previous raiding experience? Please describe.</label>
-		<br>
-		<textarea id="experience" rows="4" cols="87" name="experience"></textarea>
-        <br>
+		<textarea id="experience" rows="4" cols="87" name="experience" required></textarea>
         <label for="why-join" class="block-label">Why do you want to join our guild?</label>
-        <br>
-        <textarea id="why-join" rows="4" cols="87" name="why-join"></textarea>
+        <textarea id="why-join" rows="4" cols="87" name="why-join" required></textarea>
+        <input type="submit" class="block-label" value="Submit your application">
 
     </div>
     </fieldset>
