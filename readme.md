@@ -76,6 +76,46 @@ Apply consists of:
 
    /picture of header
 
+   #### Hero Header Section
+   - It contains a hero image. I've based the entire colourscheme of this picture as the character in the image is very iconic for the expansion the guild is currently playing.
+
+   /picture of hero section
+
+   #### About us Section
+
+   - This section is devided in two parts. About us, and recruitment status. The first part is some basic information about the guild, as how we formed, and how long it's been running.
+   - The second section is about our recruitment status, and what we expect from our raiders.
+
+   /pictures of both the sections
+
+   #### Meetup
+
+   - This section contains information about when the next meetup is, and where.
+   - The purpose of this section is to advertise that we do meetups irl, and also for members to know when, where it is, and where they can sign up for it.
+
+   #### Footer Section
+
+   - The footer contains our social media links, which is a link to our Discord channel, and our Warcraft logs.
+   - The purpose of this is so that people can easily join our discord for more information and to get in contact with us.
+
+   /picture of footer
+
+   #### Gallery
+
+   - The galleries purpose it to share some pictures either from big moments in the game such as bosskills, but also pictures from IRL from our meetups, as we tend to meetup 2-3 times per year in different countries. I've used a flexbox for this part so it's easy to further add pictures.
+
+   #### Application
+
+   - This section is our application form, for if someone is interested in joining our guild. 
+
+
+   ## Technologies used
+
+   - [HTML](https://en.wikipedia.org/wiki/HTML)
+   - [CSS](https://en.wikipedia.org/wiki/CSS)
+
+   ## Testing
+
    
    
 
