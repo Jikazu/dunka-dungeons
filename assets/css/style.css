@@ -213,3 +213,74 @@ footer {
     padding: 5%;
     color: #4822d1;
 }
+
+/* media queries */
+
+
+@media screen and (max-width: 1200px) {
+    #about {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    #welcome {
+        padding: 30px;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+
+    #meetup {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
+
+    
+}
+
+/*for medium screen sizes from 950 px wide and down */
+
+@media screen and (max-width: 950px) {
+
+   #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    
+    #about {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+
+}
+
