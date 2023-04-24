@@ -173,12 +173,14 @@ form {
 
 input[type=submit] {
 	margin-top: 20px;
-	margin-left: 0.75rem;
+	margin-left: 0.1rem;
 	padding: 0.65rem;
 	background-color: #b5c9f5;
 	color: #020302;
 	border: none;
 	border-radius: 5px;
+    font-family: inherit;
+    text-transform: capitalize;
 }
 
 input[type=text] {
