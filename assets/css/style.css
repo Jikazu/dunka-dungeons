@@ -73,17 +73,34 @@ body {
 
 #welcome {
     text-align: center;
-    margin: 20px 0;
+   /* margin: 20px 0; */
     font-size: 220%;
 }
 
 #recruitment{
     text-align: center;
-    margin: 20px 0;
+   /* margin: 20px 0; */
     font-size: 200%;
 }
 
-#left-about {
+#flexbox-container2 {
+    display: flex;
+}
+
+
+.flexbox-item2 {
+    width: 33%; 
+    /* flex-direction: column;
+    align-self: flex-start; */
+}
+
+.flexbox-item3 {
+    width: 33%; 
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+/* #left-about {
     padding-top: 10px;
     width: 33%;
     float: left;
@@ -111,7 +128,7 @@ body {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-}
+} */
 
 
 #meetup div {
