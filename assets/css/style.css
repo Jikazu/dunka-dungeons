@@ -73,69 +73,38 @@ body {
 
 #welcome {
     text-align: center;
-   /* margin: 20px 0; */
     font-size: 220%;
 }
 
 #recruitment{
     text-align: center;
-   /* margin: 20px 0; */
     font-size: 200%;
 }
 
 #flexbox-container2 {
     display: flex;
+    justify-content: space-between;
 }
 
 
 .flexbox-item2 {
     width: 33%; 
-    /* flex-direction: column;
-    align-self: flex-start; */
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .flexbox-item3 {
     width: 33%; 
     flex-direction: column;
-    align-self: flex-end;
+    justify-content: flex-end;
 }
-
-/* #left-about {
-    padding-top: 10px;
-    width: 33%;
-    float: left;
-   
-}
-
-.left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    
-}
-
-.right-about-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-} */
 
 
 #meetup div {
     color: #020302;
     background-color: rgba(181, 201, 245, 0.6);
-    width: 20%;
-    height: 225px;
+    width: 35%;
+    height: 250px;
     padding: 20px 0 0 10px;
     margin: auto;
     text-align: center;
@@ -242,21 +211,23 @@ footer {
         margin: 0;
     }
 
-    #left-about, #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
+    #flexbox-container2 {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 50%;
     }
 
 
-    #meetup {
+
+
+   /* #meetup {
         width: 150%;
         clear: both;
         height: 270px;
         padding: 0;
         text-align: center;
         float: left;
-    } 
+    } */
 
 
     
@@ -281,20 +252,7 @@ footer {
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading {
-        width: inherit;
-    }
 
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-        clear: left;
-    }
 
 
 }
