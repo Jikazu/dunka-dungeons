@@ -62,7 +62,6 @@ body {
     width: 60%;
     background: url(../images/arthas.jpg) no-repeat center center;
     border: 2px solid #78ABC4;
-    float: center;
     margin: auto;
 
 }
@@ -120,7 +119,6 @@ body {
     background-color: rgba(181, 201, 245, 0.6);
     width: 20%;
     height: 225px;
-    float: center;
     padding: 20px 0 0 10px;
     margin: auto;
     text-align: center;
@@ -144,9 +142,6 @@ body {
     border: 2px solid #78ABC4;
 }
 
- #photos > img {
-    width: 100%;
-} 
 
 /*apply */
 
