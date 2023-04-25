@@ -174,7 +174,15 @@ input[type=text] {
     align-items: center;
 }
 
+/*form dump page */
 
+.applied {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 55%;
+}
 
 /* footer */
 
