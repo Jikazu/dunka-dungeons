@@ -131,10 +131,6 @@ body {
 
 /*apply */
 
-fieldset {
-	border: none;
-	margin-top: 20px;
-}
 
 form {
 	width: 700px;
@@ -172,6 +168,12 @@ input[type=text] {
 }
 
 
+#application-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* footer */
@@ -199,12 +201,7 @@ footer {
 
 
 @media screen and (max-width: 1200px) {
-    #about {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
 
-    }
 
     #welcome {
         padding: 30px;
@@ -214,20 +211,10 @@ footer {
     #flexbox-container2 {
         flex-wrap: wrap;
         flex-direction: column;
-        width: 50%;
+        width: 100%;
+        align-items: center;
     }
 
-
-
-
-   /* #meetup {
-        width: 150%;
-        clear: both;
-        height: 270px;
-        padding: 0;
-        text-align: center;
-        float: left;
-    } */
 
 
     
@@ -246,12 +233,6 @@ footer {
     }
 
     
-    #about {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
 
 
 
