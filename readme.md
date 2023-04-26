@@ -10,7 +10,7 @@ This website is the first of five projects that needs to be completed in order t
 
 Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
 
-A live version of the project can be found here - 
+A live version of the project can be found here - https://jikazu.github.io/dunka-dungeons/
 
 - - -
 
@@ -27,10 +27,10 @@ A live version of the project can be found here -
 * Anyone currently playing on Firemaw looking for a guild, or anyone interested in transferring to our server and join our guild.
 
 ### User goals:
-* Find information about the guild
-* See when the next irl meetup is
-* Be able to apply to the guild
-* See the recruitment status
+* Find information about the guild.
+* See when the next irl meetup is.
+* Be able to apply to the guild.
+* See the recruitment status.
 
 ### Requirements
 A responsive website that incorporates the languages I have learned so far, with a development process that needs to be well documented through a version controls system such as GitHub.
@@ -39,10 +39,12 @@ Required technologies: HTML, CSS
 
 
 ### Design
-This is my first ever coding project, thus I've been quite inspired by the "Love Running" project I did earlier in the course. My design of the header and the footer have been inspired by that project. 
+This is my first ever coding project, and I've been quite inspired by the "Love Running" project I did earlier in the course. My design of the header and the footer have been inspired by that project. 
 
 ### Colour
 The colour palette is created with regards to my hero image to get the colours unified. The hero image is the endpboss for the expansion we're currently playing so it fits well with the theme, as we are a raidingguild. I created it using [Adobe Color](https://color.adobe.com/sv/create/color-wheel)
+
+![colourpalette](/assets/readme-images/color-palette.png)
 
 ### Typography
 
@@ -79,34 +81,38 @@ Apply consists of:
    #### Hero Header Section
    - It contains a hero image. I've based the entire colourscheme of this picture as the character in the image is very iconic for the expansion the guild is currently playing.
 
-   /picture of hero section
+   ![hero picture](/assets/readme-images/hero.png)
 
    #### About us Section
 
    - This section is devided in two parts. About us, and recruitment status. The first part is some basic information about the guild, as how we formed, and how long it's been running.
    - The second section is about our recruitment status, and what we expect from our raiders.
 
-   /pictures of both the sections
-
    #### Meetup
 
    - This section contains information about when the next meetup is, and where.
    - The purpose of this section is to advertise that we do meetups irl, and also for members to know when, where it is, and where they can sign up for it.
+
+   ![indexpage](/assets/readme-images/about.png)
 
    #### Footer Section
 
    - The footer contains our social media links, which is a link to our Discord channel, and our Warcraft logs.
    - The purpose of this is so that people can easily join our discord for more information and to get in contact with us.
 
-   /picture of footer
+   ![footer](/assets/readme-images/footer.png)
 
    #### Gallery
 
    - The galleries purpose it to share some pictures either from big moments in the game such as bosskills, but also pictures from IRL from our meetups, as we tend to meetup 2-3 times per year in different countries. I've used a flexbox for this part so it's easy to further add pictures.
 
+   ![gallery](/assets/readme-images/gallery.png)
+
    #### Application
 
    - This section is our application form, for if someone is interested in joining our guild. 
+
+   ![applicationform](/assets/readme-images/form.png)
 
 
    ## Technologies used
@@ -125,10 +131,29 @@ I've listed my main issues here:
 - Solution: Put them in a flexbox instead of doing floats, and now the responsiveness and positioning looks much better along with a media query.
 2. Footer was not staying in the bottom of the apply or gallery when viewing on smaller screens
 - Solution: I put the form in a flexbox, and then it somehow stays in the bottom on smaller screens.
-3. In the application and applied pages, the menu wouldn't stay at the top, and they would sort of get in the middle of the logo and menu on bigger screens.
+3. In the application and applied pages, the menu wouldn't stay at the top, and the form and text would sort of get in the middle of the logo and menu on bigger screens.
 - Solution: Added a few br and it got in the right position.
 4. In my application form at one point I could select all three, dps tank and healer.
 - Solution: I had the name different on all of them initially, but then I changed to the same thing and after that I can only select one.
+
+Other than the above, I had some spelling mistakes and open brackets etc, but that was remedied after using the validator as the errors showed up there.
+
+### Validator Testing
+
+-HTML
+   - One error is returned when running it through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjikazu.github.io%2Fdunka-dungeons%2F)
+
+
+![W3C HTML Validator](/assets/readme-images/validator-html.png)
+
+- CSS
+- No errors were returned when running it through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjikazu.github.io%2Fdunka-dungeons%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Jigsaw Validator](/assets/readme-images/validator-css.png)
+
+- Lighthouse testimg
+
+![Lighthouse testing score](/assets/readme-images/lighthouse.png)
 
    
    
