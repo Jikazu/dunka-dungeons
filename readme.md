@@ -74,7 +74,7 @@ Apply consists of:
 
    - The Header consists of a text based logo section that is aligned to the left, and a menu that is aligned to the right with it's children aligned to the left.
 
-   /picture of header
+   ![header](/assets/readme-images/header.png)
 
    #### Hero Header Section
    - It contains a hero image. I've based the entire colourscheme of this picture as the character in the image is very iconic for the expansion the guild is currently playing.

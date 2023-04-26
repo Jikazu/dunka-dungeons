@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
 /*index */
 
-* {
+/** {
     margin: 0;
     padding: 0;
     border: none;
-}
+}*/
 
 body {
     font-family: 'Cabin', sans-serif;
