@@ -151,10 +151,32 @@ Other than the above, I had some spelling mistakes and open brackets etc, but th
 
 ![Jigsaw Validator](/assets/readme-images/validator-css.png)
 
-- Lighthouse testimg
+- Lighthouse testing
 
 ![Lighthouse testing score](/assets/readme-images/lighthouse.png)
 
    
+### Unfixed Bugs
+
+1. The footer of the index page only, when viewing it on smaller screens, get stuck in the middle of the page and doesn't stay in the very bottom.
+
+All other known bugs are in the [Testing](#testing) section, with their solution. 
+
+## Development and Deployment
+
+The development environment used for this project was GitPod. To track the development stage and handle version control I've done regular commits and pushes sto GitHub. The GitPod environment was created by using a template provided by Code Institute. 
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in [GitHub Docs.](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+1. Log into GitHub.
+2. Locate the GitHub Repository that shall be deployed live.
+3. At the top of the repository, select Settings from the menu items.
+4. Scroll down the Settings page to the ”GitHub Pages" section.
+5. At the ”Source” section choose ”main” as Branch and root as folder and click ”Save”
+6. The website will deploy and the pages refreshes to provide the live link to the project.
+
+The live link can be found here: https://jikazu.github.io/dunka-dungeons/
    
 
