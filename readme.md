@@ -180,3 +180,34 @@ The procedure for deployment followed the "Creating your site" steps provided in
 The live link can be found here: https://jikazu.github.io/dunka-dungeons/
    
 
+## Content
+
+- All content on this site has been produced by the author of this project. This is a real guild on the server of Firemaw which the author is a member of.
+- The design of this project is inspired by the "Love running" project. Code has been borrowed from that project, such as the menu annd footer.
+- The icons in the footer was taken from [Font Awesome](https://fontawesome.com/).
+
+## Media
+
+- The hero image is borrowed from [Blizzard Entertainment](https://wowclassic.blizzard.com/en-us/). I do not own the Copyright, and I'm using it for educational purposes.
+- The pictures in the gallery are both screenshots from the game, and also pictures taken by various guildmembers from our irl meetups. I've gotten permission from them to use the pictures in my project. 
+
+## Credits
+
+Many thanks to:
+
+Martina Terlevic
+ - My mentor
+
+ ### Great webpages
+
+ Sites that I've used a lot during this project to look up various things are:
+
+ https://www.w3schools.com/
+ https://www.youtube.com
+ https://flexboxfroggy.com/
+
+ And all the previous lessons in HTML-Essentials, CSS-Essentials and the Walkthrough project ”Love Running”.
+
+ Kind Regards,
+
+ [Back to top](#dunka-dungeons)
