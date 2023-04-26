@@ -116,6 +116,20 @@ Apply consists of:
 
    ## Testing
 
+Test of functionality and appearance of the website has have been dealt with troughout the developemt process. 
+Tests has been conducted with Google Chrome, Firefox and on different devices.
+
+I've listed my main issues here:
+
+1. The About us section and the recruitment section on the index page did not look good on smaller screens, with poor performance. 
+- Solution: Put them in a flexbox instead of doing floats, and now the responsiveness and positioning looks much better along with a media query.
+2. Footer was not staying in the bottom of the apply or gallery when viewing on smaller screens
+- Solution: I put the form in a flexbox, and then it somehow stays in the bottom on smaller screens.
+3. In the application and applied pages, the menu wouldn't stay at the top, and they would sort of get in the middle of the logo and menu on bigger screens.
+- Solution: Added a few br and it got in the right position.
+4. In my application form at one point I could select all three, dps tank and healer.
+- Solution: I had the name different on all of them initially, but then I changed to the same thing and after that I can only select one.
+
    
    
 
