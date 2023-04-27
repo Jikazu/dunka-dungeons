@@ -2,7 +2,7 @@
 
 # The purpose with this project
 
-The purpose of my project is to have a hub outside of Discord for my World of Warcraft guild, to show potential new recruits what we're about, and where they can apply to join the guild. The site contains three pages with a home site, gallery and an application windoww. Application is done via a form.
+The purpose of my project is to have a hub outside of Discord for my World of Warcraft guild, to show potential new recruits what we're about, and where they can apply to join the guild. The site contains three pages with a home site, gallery and an application window. Application is done via a form.
 
 The target audience are World of Warcraft players on Firemaw with an interest of joining our guild.
 
@@ -11,6 +11,40 @@ This website is the first of five projects that needs to be completed in order t
 Requirements for the project is that the website has to be static and responsive using HTML5 and CSS3.
 
 A live version of the project can be found here - https://jikazu.github.io/dunka-dungeons/
+
+# Index
+
++ [UX](#ux "UX")
+   + [Site Purpose](#site-purpose "Site Purpose")
+   + [Site Goal](#site-goal "Site Goal")
+   + [Audience](#audience "Audience")
+   + [User Goals](#user-goals "User Goals")
+   + [Requirements](#requirements "Requirements")
++ [Design](#design "Design")
+   + [Colour](#colour "Colour")
+   + [Typography](#typography "Typography")
+   + [Images](#images "Images")
++ [Features](#features "Features")
+   + [Existing Features](#existing-features "Existing Features")
+   + [Header and Navigation](#header-and-navigation-section "Header and Navigation")
+   + [Hero Header Section](#hero-header-section "Hero Header Section")
+   + [About Us Section](#about-us-section "About Us Section")
+   + [Meetup Section](#meetup-section "Meetup Section")
+   + [Footer Section](#footer-section "Footer Section")
+   + [Gallery](#gallery "Gallery")
+   + [Application](#application "Application")
+   + [Application Form Dump](#application-form-dump "Application Form Dump")
++ [Technologies Used](#technologies-used "Technologies used")
++ [Testing](#testing "Testing")
+   + [Validator Testing](#validator-testing "Validator Testing")
+   + [Unfixed bugs](#unfixed-bugs "Unfixed bugs")
++ [Development and Deployment](#development-and-deployment "Development and Deployment")
++ [Content](#content "Content")
++ [Media](#media "Media")
++ [Credits](#credits "Credits")
++ [Great Webpages](#great-webpages "Great webpages")
+
+
 
 - - -
 
@@ -38,11 +72,11 @@ A responsive website that incorporates the languages I have learned so far, with
 Required technologies: HTML, CSS
 
 
-### Design
+## Design
 This is my first ever coding project, and I've been quite inspired by the "Love Running" project I did earlier in the course. My design of the header and the footer have been inspired by that project. 
 
 ### Colour
-The colour palette is created with regards to my hero image to get the colours unified. The hero image is the endpboss for the expansion we're currently playing so it fits well with the theme, as we are a raidingguild. I created it using [Adobe Color](https://color.adobe.com/sv/create/color-wheel)
+The colour palette is created with regards to my hero image to get the colours unified. The hero image is the endboss for the expansion we're currently playing so it fits well with the theme, as we are a raiding guild. I created it using [Adobe Color](https://color.adobe.com/sv/create/color-wheel)
 
 ![colourpalette](/assets/readme-images/color-palette.png)
 
@@ -88,7 +122,7 @@ Apply consists of:
    - This section is devided in two parts. About us, and recruitment status. The first part is some basic information about the guild, as how we formed, and how long it's been running.
    - The second section is about our recruitment status, and what we expect from our raiders.
 
-   #### Meetup
+   #### Meetup Section
 
    - This section contains information about when the next meetup is, and where.
    - The purpose of this section is to advertise that we do meetups irl, and also for members to know when, where it is, and where they can sign up for it.
@@ -113,6 +147,12 @@ Apply consists of:
    - This section is our application form, for if someone is interested in joining our guild. 
 
    ![applicationform](/assets/readme-images/form.png)
+
+   #### Application Form Dump
+
+   - This section is the landingpage when you've submitted an application.
+
+   ![formdump](/assets/readme-images/formdump.png)
 
 
    ## Technologies used
