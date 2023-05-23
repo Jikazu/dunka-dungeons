@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
 /*index */
 
-/** {
-    margin: 0;
-    padding: 0;
-    border: none;
-}*/
-
 body {
     font-family: 'Cabin', sans-serif;
     font-weight: 300;
@@ -67,9 +61,6 @@ body {
 }
 
 
-#about {
-    height: 500px;
-}
 
 #welcome {
     text-align: center;
@@ -120,6 +111,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     float: left;
+    width: 100%;
 }
 
 .flexbox-item1 {
@@ -223,6 +215,10 @@ footer {
         align-items: center;
     }
 
+    .flexbox-item1 {
+        width: 100%;
+    }
+
 
 
     
@@ -240,7 +236,7 @@ footer {
         line-height: 25px;
     }
 
-    
+
 
 
 
