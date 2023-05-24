@@ -115,7 +115,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    float: left;
     width: 100%;
 }
 

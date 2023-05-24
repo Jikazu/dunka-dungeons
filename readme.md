@@ -177,7 +177,8 @@ I've listed my main issues here:
 - Solution: I had the name different on all of them initially, but then I changed to the same thing and after that I can only select one.
 5. The footer of the index page only, when viewing it on smaller screens, get stuck in the middle of the page and doesn't stay in the very bottom.
 - Solution: Removed by about id and styling of that id from my index page, as that was a leftover before i was introduced to flexbox, and was not needed anymore and was what caused the footer to be in the middle of the page.
-6. 
+6. Footer was sometimes not in the bottom on smaller screens on the gallery page, along with side scrolling
+- Solution: Added into the media query that below 1200 px screens that the gallery is 1 picture wide descending, as well as removed an unneccesary float.
 
 Other than the above, I had some spelling mistakes and open brackets etc, but that was remedied after using the validator as the errors showed up there.
 
@@ -201,9 +202,7 @@ Other than the above, I had some spelling mistakes and open brackets etc, but th
    
 ### Unfixed Bugs
 
-1. Footer was sometimes not in the bottom on smaller screens on the gallery page, along with side scrolling
 
-- Solution: Added into the media query that below 1200 px screens that the gallery is 1 picture wide descending.
 
 2. make sure form becomes smaller on smaller screens
 
