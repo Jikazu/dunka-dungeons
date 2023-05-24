@@ -204,6 +204,18 @@ footer {
 /* media queries */
 
 
+@media screen and (max-width: 1900px) {
+    #flexbox-container1 > .flexbox-item1 {
+        flex: 50%;
+    }
+
+    .flexbox-item1 {
+        width: 40%;
+        margin: 50px;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
 
 
@@ -220,7 +232,8 @@ footer {
     }
 
     .flexbox-item1 {
-        width: 100%;
+        width: 97%;
+        margin: 10px;
     }
 
     form > * {
