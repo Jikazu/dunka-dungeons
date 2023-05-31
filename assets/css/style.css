@@ -260,7 +260,31 @@ footer {
     }
 
 
+    #application-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: 0 auto;
+        flex: 1;
+    }
 
+    #hero-image {
+        height: auto;
+        width: 100%;
+    }
+
+    #meetup div {
+        color: #020302;
+        background-color: rgba(181, 201, 245, 0.6);
+        width: 100%;
+        height: 400px;
+        padding: 20px 0 0 10px;
+        margin: auto;
+        text-align: center;
+        border: 5px double #78ABC4;
+        box-sizing: border-box;
+    }
 
 }
 
