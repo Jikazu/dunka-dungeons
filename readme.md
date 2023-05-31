@@ -190,7 +190,7 @@ Other than the above, I had some spelling mistakes and open brackets etc, but th
    - No errors were returned when running it through the official. [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjikazu.github.io%2Fdunka-dungeons%2F)
 
 
-![W3C HTML Validator](/assets/readme-images/validator-html.png)
+![W3C HTML Validator](/assets/readme-images/validator-htmlnew.png)
 
 - CSS
 - No errors were returned when running it through the official [Jigsaw Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjikazu.github.io%2Fdunka-dungeons%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
