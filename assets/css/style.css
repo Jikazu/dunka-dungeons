@@ -287,6 +287,11 @@ footer {
         box-sizing: border-box;
     }
 
+    .flexbox-item1 {
+        width: 95%;
+        margin: 10px;
+    }
+
 }
 
 
