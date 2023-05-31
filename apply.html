@@ -25,12 +25,14 @@
     </header>
     <br>
     <br>
-    <form id="application-form" action="applied.html">
+    
+
+     <form id="application-form" action="applied.html" method="GET">
         <fieldset>
-        <div class="float-left">
-        <label for="cname">Character name:</label>
+        <div>
+        <label for="cname" class="block-label">Character name:</label>
         <input type="text" id="cname" name="cname" required>
-        <label for="class">Class:</label>
+        <label for="class" class="block-label">Class:</label>
         <select id="class" name="class" required>
             <option value="warrior">Warrior</option>
             <option value="priest">Priest</option>
@@ -51,13 +53,15 @@
         <label for="healer">Healer</label>
         <input type="radio" id="healer" name="role" value="Healer" required>
         <label for="experience" class="block-label">What is your previous raiding experience? Please describe.</label>
-		<textarea id="experience" rows="4" cols="87" name="experience" required></textarea>
+		<textarea id="experience" name="experience" required></textarea>
         <label for="why-join" class="block-label">Why do you want to join our guild?</label>
-        <textarea id="why-join" rows="4" cols="87" name="why-join" required></textarea>
+        <textarea id="why-join" name="why-join" required></textarea>
         <input type="submit" class="block-label" value="Submit your application">
     </div>
     </fieldset>
     </form>
+
+     
     
     <footer>
 
