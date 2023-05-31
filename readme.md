@@ -164,6 +164,11 @@ Apply consists of:
 
 Test of functionality and appearance of the website has have been dealt with troughout the developemt process. 
 Tests has been conducted with Google Chrome, Firefox and on different devices.
+- Clicking on home in the nav bar goes to the index as it should on all pages.
+- Clicking on gallery goes to the gallery as it should on all pages.
+- Clicking on apply goes to the application form as it should on all pages.
+- Clicking on the submit your application goes to the applied page as it should. 
+- Footer is working as it should on all different pages.
 
 I've listed my main issues here:
 
@@ -203,9 +208,6 @@ Other than the above, I had some spelling mistakes and open brackets etc, but th
 
    
 ### Unfixed Bugs
-
-
-
 
 
 All other known bugs are in the [Testing](#testing) section, with their solution. 
