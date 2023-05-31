@@ -208,9 +208,9 @@ Other than the above, I had some spelling mistakes and open brackets etc, but th
 
    
 ### Unfixed Bugs
+None.
 
-
-All other known bugs are in the [Testing](#testing) section, with their solution. 
+All known bugs are in the [Testing](#testing) section, with their solution. 
 
 ## Development and Deployment
 
