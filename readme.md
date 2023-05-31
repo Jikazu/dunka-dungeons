@@ -187,7 +187,7 @@ Other than the above, I had some spelling mistakes and open brackets etc, but th
 ### Validator Testing
 
 -HTML
-   - One error is returned when running it through the official [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjikazu.github.io%2Fdunka-dungeons%2F)
+   - No errors were returned when running it through the official. [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjikazu.github.io%2Fdunka-dungeons%2F)
 
 
 ![W3C HTML Validator](/assets/readme-images/validator-html.png)
