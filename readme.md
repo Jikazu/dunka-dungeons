@@ -179,6 +179,8 @@ I've listed my main issues here:
 - Solution: Removed by about id and styling of that id from my index page, as that was a leftover before i was introduced to flexbox, and was not needed anymore and was what caused the footer to be in the middle of the page.
 6. Footer was sometimes not in the bottom on smaller screens on the gallery page, along with side scrolling
 - Solution: Added into the media query that below 1200 px screens that the gallery is 1 picture wide descending, as well as removed an unneccesary float.
+7. Make sure form becomes smaller on smaller screens
+- Solution: added in media queries along with styling the textareas in css.
 
 Other than the above, I had some spelling mistakes and open brackets etc, but that was remedied after using the validator as the errors showed up there.
 
@@ -204,7 +206,7 @@ Other than the above, I had some spelling mistakes and open brackets etc, but th
 
 
 
-2. make sure form becomes smaller on smaller screens
+
 
 All other known bugs are in the [Testing](#testing) section, with their solution. 
 

@@ -62,7 +62,6 @@ body {
     background: url(../images/arthas.jpg) no-repeat center center;
     border: 2px solid #78ABC4;
     margin: auto;
-
 }
 
 
@@ -244,10 +243,25 @@ footer {
         flex: 1;
     }
 
+    .applied {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 10px;
+    }
 
 
-
+#hero-image {
+    background-position: 0 0px;
+    height: 400px;
+    width: 90%;
+}
     
+#hero-outer {
+    height: 400px;
+    width: 100%;
+}
 }
 
 /*for medium screen sizes from 950 px wide and down */
@@ -261,7 +275,6 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-
 
 
 
