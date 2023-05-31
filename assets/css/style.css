@@ -244,8 +244,8 @@ footer {
     }
 
     .applied {
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-direction: row;
         width: 100%;
         align-items: center;
         margin: 10px;
